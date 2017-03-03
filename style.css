@@ -1,0 +1,123 @@
+body
+{
+	background-color: black;
+}
+h1
+{
+	font-family: Lucida Console;
+	font-size: 200px;
+	color: Red;
+	text-align: center;
+}
+img
+{
+	display: block;
+    margin: 0 auto;
+}
+*{
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+	text-decoration: none;
+	box-sizing:border-box;
+	font-family: "Trajan", "Garamond", serif;
+    }
+
+	body{
+		background-color: #FFFAF0;
+	}
+	
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFAF0;
+	box-shadow: 0px .5vh 1vh #3C3C3C;
+	font-family: "Trajan", "Garamond", serif;
+	overflow: hidden;
+	border-bottom: 2px solid black;
+	
+}
+
+li {
+    float: left;
+	overflow: hidden;
+	
+
+}
+
+li a {
+    display: block;
+	font-family: "Trajan", serif;
+	font-size: 3vh;
+    color: white;
+    text-align: center;
+    padding: 1vw 7vw;
+	overflow: hidden;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px 	#000000;
+	
+	
+}
+
+li a:hover:not(.active) {
+    color:black;
+	text-shadow: 0px 0px 0px;
+}
+
+li .active {
+    color: black;
+	box-shadow: 0px 3px 5px #3C3C3C;
+	text-shadow: 0px 0px 0px;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 0;
+  padding:0;
+  z-index:-1;
+  height: 100%;
+  background-color: #3C3C3C;
+  
+
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  margin:0;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.maincontent{
+	width: 100%;
+	text-align: center;
+	margin:0;
+	margin-bottom: 20px;
+	margin-top: 10vh;
+}
+
+.article{
+	display: inline-block;
+	text-align: left;
+	margin: 5px;
+	width:75%;
+	font-family: "Trajan", "Garamond", serif;
+	font-size: 22px;
+	
+	
+}
+
+
+p{
+	margin-left: 15px;
+	padding:5px;
+}
+
