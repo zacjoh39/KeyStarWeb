@@ -11,11 +11,11 @@ h1
 *
 {
     font-family: 'Trajan', 'Garamond', serif;
-
+	list-style-type: none;
     margin: 0;
     padding: 0;
 
-    list-style-type: none;
+    
 
     text-decoration: none;
 }
@@ -67,10 +67,22 @@ li a
     text-shadow: 0 0 .5vh	#000;
 }
 
+li img
+{
+	display:inline-block;
+	height: 6vh;
+	margin-top:.3vh;
+	margin-bottom: .3vh;
+	overflow: hidden;
+	padding-left:4vw;
+	position:relative;
+	
+}
+
 li a:hover:not(.active)
 {
     color: black;
-    text-shadow: 0vh 0vh 0vh;
+    text-shadow: 0 0 0;
 }
 
 li .active
