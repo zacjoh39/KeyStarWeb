@@ -26,10 +26,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FFFAF0;
-	box-shadow: 0px .5vh 1vh #3C3C3C;
+	box-shadow: 0vh .5vh 1vh #3C3C3C;
 	font-family: "Trajan", "Garamond", serif;
 	overflow: hidden;
-	border-bottom: 2px solid black;
+	border-bottom: .5vh solid black;
 	
 }
 
@@ -52,20 +52,19 @@ li a {
    
 	overflow: hidden;
 	font-weight: bold;
-	text-shadow: 0px 0px 3px 	#000000;
+	text-shadow: 0vh 0vh 1vh	#000000;
 	
 	
 }
 
 li a:hover:not(.active) {
     color:black;
-	text-shadow: 0px 0px 0px;
+	text-shadow: 0vh 0vh 0vh;
 }
 
 li .active {
     color: black;
-	box-shadow: 0px 3px 5px #3C3C3C;
-	text-shadow: 0px 0px 0px;
+	text-shadow: 0vh 0vh 0vh;
 }
 
 .maincontent{
