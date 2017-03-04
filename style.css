@@ -64,7 +64,7 @@ li a
     text-align: center;
 
     color: white;
-    text-shadow: 0 0 1vh	#000;
+    text-shadow: 0 0 .5vh	#000;
 }
 
 li a:hover:not(.active)
