@@ -46,9 +46,9 @@ li a {
 	font-size: 3.5vh;
     color: white;
     text-align: center;
-    padding: 1vh 4vw;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh
+    padding: 0vh 4vw;
+    padding-top: 3.5vh;
+   
    
 	overflow: hidden;
 	font-weight: bold;
