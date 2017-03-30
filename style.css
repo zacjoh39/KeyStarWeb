@@ -26,7 +26,7 @@ body
 }
 
 
-ul
+#first-list
 {
     font-family: 'Trajan', 'Garamond', serif;
 
@@ -41,6 +41,7 @@ ul
     background-color: #fffaf0;
     box-shadow: 0 .5vh 1vh #3c3c3c;
 }
+
 .top{
 
     overflow: hidden;
@@ -62,7 +63,7 @@ li
     overflow: hidden;
 }
 
-li a
+#first-list li a
 {
     font-family: 'Trajan', serif;
     font-size: 3vh;
@@ -81,7 +82,7 @@ li a
     text-shadow: 0 0 .5vh	#000;
 }
 
-li img
+#first-list li img
 {
 	display:inline-block;
 	height: 6vh;
@@ -93,17 +94,90 @@ li img
 	
 }
 
-li a:hover:not(.active)
+#first-list li a:hover:not(.active)
 {
     color: black;
     text-shadow: 0 0 0;
 }
 
-li .active
+#first-list li .active
 {
     color: black;
     text-shadow: 0 0 0;
 }
+#second-list
+{
+	width:80%;
+	margin-left:13%;
+	
+}
+
+#second-list li a
+{
+    font-family: 'Trajan', serif;
+    font-size: 3vh;
+    font-weight: bold;
+
+    display: block;
+    overflow: hidden;
+
+	width: 12vw;
+    
+	padding-top:8vh;
+	padding-bottom:8vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+	margin-top: 3vh;
+
+    text-align: center;
+	background-color:black;
+    color: white;
+   
+}
+
+#second-list li a:hover:not(.active)
+{
+    color: black;
+    text-shadow: 0 0 0;
+}
+#third-list
+{
+	width:60%;
+	margin-left:22%;
+	margin-right:10%;
+}
+
+#third-list li a
+{ font-family: 'Trajan', serif;
+    font-size: 3vh;
+    font-weight: bold;
+
+    display: block;
+    overflow: hidden;
+
+	width: 12vw;
+    
+	padding-top:8vh;
+	padding-bottom:8vh;
+	margin-right: 3vw;
+	margin-left: 3vw;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+
+    text-align: center;
+	background-color:black;
+    color: white;
+   
+}
+
+#third-list li a:hover:not(.active)
+{
+    color: black;
+    text-shadow: 0 0 0;
+}
+
+
+
 
 .slidebg{
 	width:100%;
@@ -237,3 +311,5 @@ p
     margin-left: 15px;
     padding: 5px;
 }
+
+
