@@ -107,8 +107,8 @@ li
 }
 #second-list
 {
-	width:80%;
-	margin-left:13%;
+	width:90%;
+	margin-left:5.5%;
 	
 }
 
@@ -121,13 +121,13 @@ li
     display: block;
     overflow: hidden;
 
-	width: 12vw;
+	width: 18vw;
     
-	padding-top:8vh;
-	padding-bottom:8vh;
-	margin-right: 3vw;
-	margin-left: 3vw;
-	margin-top: 3vh;
+	padding-top:10vh;
+	padding-bottom:10vh;
+	margin-right: 2vw;
+	margin-left: 2vw;
+	margin-top: 6vh;
 
     text-align: center;
 	background-color:black;
@@ -142,9 +142,10 @@ li
 }
 #third-list
 {
-	width:60%;
-	margin-left:22%;
+	width:80%;
+	margin-left:17%;
 	margin-right:10%;
+	
 }
 
 #third-list li a
@@ -155,13 +156,13 @@ li
     display: block;
     overflow: hidden;
 
-	width: 12vw;
+	width: 18vw;
     
-	padding-top:8vh;
-	padding-bottom:8vh;
-	margin-right: 3vw;
-	margin-left: 3vw;
-	margin-top: 3vh;
+	padding-top:10vh;
+	padding-bottom:10vh;
+	margin-right: 2vw;
+	margin-left: 2vw;
+	margin-top: 6vh;
 	margin-bottom: 3vh;
 
     text-align: center;
