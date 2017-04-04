@@ -105,77 +105,7 @@ li
     color: black;
     text-shadow: 0 0 0;
 }
-#second-list
-{
-	width:90%;
-	margin-left:5.5%;
-	
-}
 
-#second-list li a
-{
-    font-family: 'Trajan', serif;
-    font-size: 3vh;
-    font-weight: bold;
-
-    display: block;
-    overflow: hidden;
-
-	width: 18vw;
-    
-	padding-top:10vh;
-	padding-bottom:10vh;
-	margin-right: 2vw;
-	margin-left: 2vw;
-	margin-top: 6vh;
-
-    text-align: center;
-	background-color:black;
-    color: white;
-   
-}
-
-#second-list li a:hover:not(.active)
-{
-    color: black;
-    text-shadow: 0 0 0;
-}
-#third-list
-{
-	width:80%;
-	margin-left:17%;
-	margin-right:10%;
-	
-}
-
-#third-list li a
-{ font-family: 'Trajan', serif;
-    font-size: 3vh;
-    font-weight: bold;
-
-    display: block;
-    overflow: hidden;
-
-	width: 18vw;
-    
-	padding-top:10vh;
-	padding-bottom:10vh;
-	margin-right: 2vw;
-	margin-left: 2vw;
-	margin-top: 6vh;
-	margin-bottom: 3vh;
-
-    text-align: center;
-	background-color:black;
-    color: white;
-   
-}
-
-#third-list li a:hover:not(.active)
-{
-    color: black;
-    text-shadow: 0 0 0;
-}
 
 
 
@@ -204,7 +134,7 @@ li
 .mySlides {
     display: none;
 	width: 100%;
-	background-color: #fffaf0;
+	background-color: #505050;
 	z-index: -2
 }
 
@@ -309,15 +239,6 @@ li
   to {opacity: 1}
 }
 
-.maincontent
-{
-    width: 100%;
-    margin: 0;
-    margin-top: 10vh;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 
 p
 {
@@ -337,8 +258,172 @@ p
 .column-center{ display: inline-block;  }
 
 .containerCol{
-	margin-left:5%;
-	margin-top: 10vh;
+	margin-left:4%;
+	margin-top: 5vh;
 	margin-bottom:15%;
 }
+
+.column {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.column:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.column img{
+	 box-shadow: 0 .5vh 1vh #3c3c3c;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+	
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	border-radius: 10px;
+}
+#b1 {
+	border-radius: 10px;
+	font-family: 'Trajan', serif;
+    font-size: 3vh;
+    font-weight: bold;
+
+    display: block;
+    overflow: hidden;
+
+    padding: .5vw;
+	margin-top: .5vh;
+	margin-left: 30vw;
+  
+
+    text-align: center;
+
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: black;
+	border-radius: 5px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+	
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
 
