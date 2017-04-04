@@ -252,6 +252,18 @@ li
   font-family: Raleway;
   max-width: 18vw;
 }
+.text2 {
+  color: white;
+  font-size: 5vh;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5.5vw;
+  right: 3.8vw;
+  width: 100%;
+  text-align: left;
+  font-family: Raleway;
+  max-width: 18vw;
+}
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -313,4 +325,20 @@ p
     padding: 5px;
 }
 
+.column {
+    float: left;
+    position: relative;
+    width: 25%;
+
+}
+
+.column-left{ float: left; }
+.column-right{ float: right; }
+.column-center{ display: inline-block;  }
+
+.containerCol{
+	margin-left:5%;
+	margin-top: 10vh;
+	margin-bottom:15%;
+}
 
