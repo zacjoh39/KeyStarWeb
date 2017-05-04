@@ -71,11 +71,11 @@ while($row = mysqli_fetch_assoc($productQuery)){
 	if(isset($_GET["sort"])){
 
 
-		if($row["type"]==$sort){
+		if($row["ProdType"]==$sort){
 
-			$productName = $row["name"];
-			$productPrice = $row["price"];
-			$img = "images/".$row["img"];
+			$productName = $row["Name"];
+			$productPrice = $row["Price"];
+			$img = "images/".$row["Img"];
 			
 			echo '
 			
@@ -96,9 +96,9 @@ while($row = mysqli_fetch_assoc($productQuery)){
 			';
 		}
 	}else{
-		$productName = $row["name"];
-			$productPrice = $row["price"];
-			$img = "images/".$row["img"];
+		$productName = $row["Name"];
+			$productPrice = $row["Price"];
+			$img = "images/".$row["Img"];
 			
 			echo '
 			
