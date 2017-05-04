@@ -4,7 +4,7 @@
 <HEAD>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Products | KeyStar</title>
+	<title>About | KeyStar</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js.js"></script>
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
@@ -19,11 +19,11 @@
 			<ul id="first-list">
 				<div style="position: relative;overflow:hidden;height: 6.6vh;">
 					<li><img src="images\keystar.png" align="right"></li>
-					<li><a href="index.html">HOME</a></li>
+					<li><a href="index.php">HOME</a></li>
 					<li><img src="images\productsicon.png" align="right"></li>
-					<li><a class="active" href="Products.html">PRODUCTS</a></li>
+					<li><a href="Products.php">PRODUCTS</a></li>
 					<li><img src="images\abouticon.png"  align="right"></li>
-					<li><a href="About.html">ABOUT</a></li>
+					<li><a class="active" href="About.php">ABOUT</a></li>
 					<li><button id="b1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>	
 				</div>
 			</ul>

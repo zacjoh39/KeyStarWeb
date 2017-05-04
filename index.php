@@ -20,11 +20,11 @@
 			<ul id="first-list">
 				<div style="position: relative;overflow:hidden;height: 6.6vh;">
 					<li><img src="images\keystar.png" align="right"></li>
-					<li><a class="active" href="index.html">HOME</a></li>
+					<li><a class="active" href="index.php">HOME</a></li>
 					<li><img src="images\productsicon.png" align="right"></li>
-					<li><a href="Products.html">PRODUCTS</a></li>
+					<li><a href="Products.php">PRODUCTS</a></li>
 					<li><img src="images\abouticon.png"  align="right"></li>
-					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="About.php">ABOUT</a></li>
 					<li><button id="b1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>	
 				</div>
 			</ul>
@@ -70,53 +70,75 @@
 
 </div>
 <div class="containerCol">
-   <div class="column column-left">
-		<div class="boximg ">
-		<img src="images\box.png" style="width:85%">
-		 <div class="text2">Video card</div>
-		 </div>
-   </div>
-   <div class="column column-right">
-		<div class="abc">
-		<img src="images\box2.png" style="width:85%">
-		 <div class="text2">CPU</div>
-		 </div>
-   </div>
-   <div class="column column-center">
-		<img src="images\box3.png" style="width:85%">
-		<div class="text2">RAM</div>
-   
-   </div>
-   <div class="column column-center">
-		<img src="images\box4.png" style="width:85%">
-		<div class="text2">Motherboard</div>
-   
-   </div>
-  
-   
+<a href="products.php?sort=VGA">
+       <div class="column column-left">
+    		<div class="boximg ">
+    		<img src="images\box.png" style="width:85%">
+    		 <div class="text3">Video card</div>
+    		 </div>
+       </div>
+</a>
+
+  <a href="products.php?sort=CPU">
+       <div class="column column-right">
+    		<div class="abc">
+    		<img src="images\box2.png" style="width:85%">
+    		 <div class="text3">CPU</div>
+    		 </div>
+       </div>
+  </a>
+
+  <a href="products.php?sort=RAM">
+       <div class="column column-center">
+    		<img src="images\box3.png" style="width:85%">
+    		<div class="text3">RAM</div>
+       </div>
+
+  </a>
+
+  <a href="products.php?sort=MB">
+
+       <div class="column column-center">
+    		<img src="images\box4.png" style="width:85%">
+    		<div class="text3">Motherboard</div>
+    </div>   
 </div>
+
+  </a>
+
 <br>
 <div class="containerCol">
+
+  <a href="products.php?sort=HDD">
    <div class="column column-left">
 		<div class="boximg"><img src="images\box5.png" style="width:85%">
-		 <div class="text2">Storage</div>
+		 <div class="text3">Storage</div>
 		 </div>
    </div>
+
+   </a>
+
+   <a href="products.php?sort=IN">
    <div class="column column-right">
 		<img src="images\box6.png" style="width:85%">
-		<div class="text2">Input</div>
-   
+		<div class="text3">Input</div>
    </div>
+
+   </a>
+
+   <a href="products.php?sort=PSU">
    <div class="column column-center">
 		<img src="images\box7.png" style="width:85%">
-		<div class="text2">PSU</div>
-   
+		<div class="text3">PSU</div>
    </div>
+    </a>
+
+    <a href="products.php?sort=CASE">
    <div class="column column-center">
 		<img src="images\box8.png" style="width:85%">
-		<div class="text2">Case</div>
-   
+		<div class="text3">Case</div>
    </div>
+   </a>
   
    
 </div>
