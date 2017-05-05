@@ -70,7 +70,7 @@
 
 </div>
 <div class="containerCol">
-<a href="products.php?sort=VGA">
+<a href="Products.php?sort=VGA">
        <div class="column column-left">
     		<div class="boximg ">
     		<img src="images\box.png" style="width:85%">
@@ -79,7 +79,7 @@
        </div>
 </a>
 
-  <a href="products.php?sort=CPU">
+  <a href="Products.php?sort=CPU">
        <div class="column column-right">
     		<div class="abc">
     		<img src="images\box2.png" style="width:85%">
@@ -88,7 +88,7 @@
        </div>
   </a>
 
-  <a href="products.php?sort=RAM">
+  <a href="Products.php?sort=RAM">
        <div class="column column-center">
     		<img src="images\box3.png" style="width:85%">
     		<div class="text3">RAM</div>
@@ -96,7 +96,7 @@
 
   </a>
 
-  <a href="products.php?sort=MB">
+  <a href="Products.php?sort=MB">
 
        <div class="column column-center">
     		<img src="images\box4.png" style="width:85%">
@@ -109,7 +109,7 @@
 <br>
 <div class="containerCol">
 
-  <a href="products.php?sort=HDD">
+  <a href="Products.php?sort=HDD">
    <div class="column column-left">
 		<div class="boximg"><img src="images\box5.png" style="width:85%">
 		 <div class="text3">Storage</div>
@@ -118,7 +118,7 @@
 
    </a>
 
-   <a href="products.php?sort=IN">
+   <a href="Products.php?sort=IN">
    <div class="column column-right">
 		<img src="images\box6.png" style="width:85%">
 		<div class="text3">Input</div>
@@ -126,14 +126,14 @@
 
    </a>
 
-   <a href="products.php?sort=PSU">
+   <a href="Products.php?sort=PSU">
    <div class="column column-center">
 		<img src="images\box7.png" style="width:85%">
 		<div class="text3">PSU</div>
    </div>
     </a>
 
-    <a href="products.php?sort=CASE">
+    <a href="Products.php?sort=CASE">
    <div class="column column-center">
 		<img src="images\box8.png" style="width:85%">
 		<div class="text3">Case</div>
